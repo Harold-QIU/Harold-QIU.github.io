@@ -91,8 +91,11 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>This article is about how to apply LLM models to law. First, we will introduce the basic concepts of LLM models. Then, we will introduce how to apply LLM models to law. Finally, we will introduce the future of LLM models.</p>
-
+        <p>This post is about how to apply LLM models to specific domains like clinic, law and finance. Although the LLM models like ChatGPT have showed great performance in open-domain conversation and a strong scalability ability, their hallucination problem is still a big challenge when considering applying them to specific domains. In this post, we will dicuss why build a domian-specific LLM model and how to build it.</p>
+<h1 id="Why-build-a-domain-specific-LLM-model"><a href="#Why-build-a-domain-specific-LLM-model" class="headerlink" title="Why build a domain-specific LLM model"></a>Why build a domain-specific LLM model</h1><p>For example, when we use ChatGPT to generate legal advice, it may generate some illegal advice. The reason is that the LLM models are trained on a large-scale dataset, which contains a lot of illegal advice. Therefore, the LLM models will generate illegal advice when they are applied to specific domains. To solve this problem, we need to build a domain-specific LLM model.</p>
+<p>Yet, foundational models are far from perfect despite their natural language processing capabilities. Some researchers considered to insert domain knowledge before the prompt to guide the model to generate more reasonable and domain-specific responses. However, the domain knowledge is usually long and most LLMs do not support such long context. Therefore, we need to customize a model with a better language understanding of a specific domain.</p>
+<h2 id="Example-of-domain-specific-LLM-model"><a href="#Example-of-domain-specific-LLM-model" class="headerlink" title="Example of domain-specific LLM model"></a>Example of domain-specific LLM model</h2><h3 id="Med-PaLM2"><a href="#Med-PaLM2" class="headerlink" title="Med-PaLM2"></a>Med-PaLM2</h3><p>Med-PaLM 2 is a domain-specific LLM model for medical domain. The model can accurately answer medical questions, putting it on par with medical professionals in some use cases. <a target="_blank" rel="noopener" href="https://sites.research.google/med-palm/">^1</a></p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3>
       
     </div>
     <footer class="article-footer">
